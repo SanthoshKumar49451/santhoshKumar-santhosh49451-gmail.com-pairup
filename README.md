@@ -1,12 +1,89 @@
-# React + Vite
+ Mentorship Dashboard – Frontend Intern
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+##  Project Overview  
+This project is a **Mentorship Dashboard** built using **React** and **Redux Toolkit**. It allows mentors to:
+- Track mentee progress  
+- View feedback from mentees  
+- Manage and complete tasks  
+- Monitor upcoming sessions  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This simulates a simple mentorship platform to enhance mentor-mentee engagement.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠 Tech Stack  
+- ⚛️ React  
+- 🧰 Redux Toolkit  
+- 🌐 React Router DOM  
+- 🎨 Tailwind CSS  
+
+
+## 🧾 Installation Instructions  
+
+### 🔄 Clone the Repository  
+```bash
+git clone https://github.com/SanthoshKumar49451/santhoshKumar-santhosh49451-gmail.com-pairup.git
+cd santhoshKumar-santhosh49451-gmail.com-pairup
+📦 Install Dependencies
+bash
+Copy
+Edit
+npm install
+▶️ Run the Application
+bash
+Copy
+Edit
+npm start
+📁 Folder Structure
+This project is organized using a feature-based structure with Redux Toolkit:
+
+bash
+Copy
+Edit
+src/
+├── components/                # React UI components
+│   ├── FeedBackComponent.jsx
+│   ├── HeaderComponent.jsx
+│   ├── MentorComponent.jsx
+│   ├── SessionComponent.jsx
+│   └── TaskComponent.jsx
+│
+├── features/                  # Redux Toolkit slices
+│   ├── feedbackSlice.js
+│   ├── menteeSlice.js
+│   ├── taskSlice.js
+│   └── upcomingSlice.js
+│
+├── store/
+│   └── store.js               # Redux store configuration
+│
+├── App.js                     # Main application
+├── index.js                   # React DOM render
+├── App.css                    # Optional custom styles
+└── index.css                  # Tailwind base styles
+
+
+📸 Screenshots
+ℹ️ Place screenshots in a folder called /screenshots and reference below
+
+🧑‍🎓 Mentee Info
+
+✅ Tasks
+
+📅 Sessions
+
+💬 Feedback
+
+🚧 Known Issues
+Redux state is static (no backend persistence)
+
+No authentication or login system
+
+No real-time data updates
+
+🌐 Live Demo:
+🔗 https://santhosh-pairup.vercel.app/
+
+📬 Contact
+📧 Email: santhoshkumar49451@gmail.com
